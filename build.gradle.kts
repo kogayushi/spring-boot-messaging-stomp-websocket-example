@@ -26,6 +26,9 @@ dependencies {
 	implementation("org.webjars:jquery:3.1.1-1")
 	developmentOnly("org.springframework.boot:spring-boot-devtools")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
+
+	implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
+
 }
 
 tasks.withType<KotlinCompile> {
